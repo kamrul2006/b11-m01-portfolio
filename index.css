@@ -10,6 +10,16 @@
     font-style: normal;
 }
 
+/* -------------------header--------------------- */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: center left, bottom right;
+    background-color: rgb(250, 253, 255);
+
+
+}
+
 /* --------------------css for nav bar------------------ */
 .nav {
     margin-right: 70px;
@@ -44,6 +54,11 @@
     background-color: orangered;
     padding: 13px;
     color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: large;
+    font-family: "Exo 2", sans-serif;
 }
 
 .hireBtn:hover {
@@ -54,5 +69,48 @@
 
 /* ------------------css for main part-------------- */
 
+/* ----------banner part-------------- */
+.bann {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 150px;
+
+}
+
+.bann-con {
+    max-width: 600px;
+}
+
+
+#btx {
+    color: rgb(255, 51, 0);
+    background-color: transparent;
+    border: 1px solid rgb(255, 72, 0);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.bn-gtn {
+    color: rgb(99, 98, 98);
+    font-weight: lighter;
+    font-size: 45px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.pra {
+    font-size: 18px;
+    color: rgb(99, 98, 98);
+}
+
+#img {
+    height: 576px;
+    width: 758;
+}
 
 /* -------------------css for footer part------------ */
