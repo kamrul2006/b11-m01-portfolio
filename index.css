@@ -1,3 +1,58 @@
 .body {
     margin: 0;
+    text-decoration: none;
 }
+
+.exo-2 {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* --------------------css for nav bar------------------ */
+.nav {
+    margin-right: 70px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navItems li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navItems :hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+.hireBtn {
+    background-color: orangered;
+    padding: 13px;
+    color: white;
+}
+
+.hireBtn:hover {
+    background-color: rgb(245, 121, 76);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ------------------css for main part-------------- */
+
+
+/* -------------------css for footer part------------ */
